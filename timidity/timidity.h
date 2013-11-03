@@ -436,7 +436,7 @@ typedef double FLOAT_T;
 /* you cannot but use safe_malloc(). */
 #define HAVE_SAFE_MALLOC 1
 /* malloc's limit */
-#define MAX_SAFE_MALLOC_SIZE (1<<23) /* 8M */
+#define MAX_SAFE_MALLOC_SIZE (1<<26) /* 64M */
 
 #define DEFAULT_SOUNDFONT_ORDER 0
 
